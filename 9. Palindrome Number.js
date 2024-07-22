@@ -17,17 +17,4 @@ var isPalindromeString = function (x) {
     return LastToFirst.toString() === FirstToLast.toString()
 };
 
-// isPalindromeString(12345677654321)
-
-// =====================================================================================
-// Without conversion to string
-/**
- * @param {x} x
- * @return {boolean}
- */
-var isPalindrome = function (x) {
-
-};
-
-
-isPalindrome(122)
+isPalindromeString(12345677654321)
